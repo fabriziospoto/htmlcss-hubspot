@@ -37,7 +37,7 @@ body {
 .pink {
     background-color: #fff4ef;
     /* da cancellare */
-    height: 600px;
+    /* height: 600px; */
 }
 
 .greenrow {
@@ -127,6 +127,11 @@ body {
     margin-left: 15px;
 }
 
+.btn {
+    border-radius: 5px;
+    font-weight: 700;
+}
+
 .btn-empty {
     background-color: #fafcfe;
     color: #fe775a;
@@ -161,6 +166,45 @@ ul li {
 span {
     padding-left: 10px;
     padding-top: 26px;
+}
+
+/* Header  */
+.banner {
+    height: 550px;
+    position: relative;
+
+}
+
+.jumbotron {
+    width: 50%;
+    position: absolute;
+    top: 10%;
+}
+
+h1 {
+    font-size: 50px;
+    color: #33475b;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.jumbotron p {
+    font-size: 15px;
+    color: #33475b;
+    line-height: 25px;
+    padding: 40px 0;
+}
+
+.bigbutton {
+    color: #fafcfe;
+    background-color: #fe775a;
+    border: none;
+    padding: 15px 20px;
+}
+
+#cta-text {
+    font-size: 10px;
+    padding-top: 30px;
 }
 
 /* Main */
