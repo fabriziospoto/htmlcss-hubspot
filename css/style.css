@@ -34,6 +34,10 @@ body {
     background-color: white;
 }
 
+.whiteheight {
+    height: 600px;
+}
+
 .pink {
     background-color: #fff4ef;
     /* da cancellare */
