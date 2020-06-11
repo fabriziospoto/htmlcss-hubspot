@@ -10,6 +10,10 @@
     clear: both;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .fullcontain {
     width: 100%;
 }
@@ -23,6 +27,7 @@
 
 .powder {
     background-color: #f4f9fd;
+    border-bottom: 1px solid #4e6071;
 }
 
 .white {
@@ -54,15 +59,117 @@
     height: 600px;
 }
 
+/* Prima nav  */
+/* .fixed {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+} */
+
 .nav {
     height: 70px;
 }
 
+.language {
+    float: left;
+    color: #4e6071;
+    /* line-height: 70px; */
+}
+
+.language i {
+    float: left;
+    color: #4e6071;
+    margin-top: 27px;
+}
+
+.language a {
+    font-size: 17px;
+    color: #4e6071;
+    float: left;
+    list-style: none;
+    padding: 25px 7px 26px;
+    margin: auto;
+    text-decoration: none;
+}
+
+.contact a {
+    font-size: 17px;
+    float: left;
+    color: #4e6071;
+    padding: 10px 15px 10px 25px;
+    line-height: 50px;
+    list-style: none;
+    margin: auto;
+    text-decoration: none;
+}
+
+.contact p {
+    color: #4e6071;
+    margin: auto;
+    float: left;
+    margin-left: 25px;
+    padding-top: 23px;
+}
+
+.cta {
+    float: right;
+}
+
+.cta i {
+    color: #00a4bd;
+    margin-top: 27px;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.btn-empty {
+    background-color: #fafcfe;
+    color: #fe775a;
+    border: 1px solid #fe775a;
+}
+
+.btn-full {
+    color: #fafcfe;
+    background-color: #fe775a;
+    border: none;
+}
+
+/* Seconda Nav */
+.menu {
+    float: right;
+}
+
+img {
+    width: 120px;
+    float: left;
+    padding-top: 13px;
+}
+
+ul li {
+    font-size: 17px;
+    color: #4e6071;
+    float: left;
+    list-style: none;
+    padding: 25px 0 0 20px;
+}
+
+span {
+    padding-left: 10px;
+    padding-top: 26px;
+}
+
+/* Main */
 main {
     /* da cancellare */
     height: 1200px;
 }
 
+/* Footer */
 footer {
     /* da cancellare */
     height: 600px;
