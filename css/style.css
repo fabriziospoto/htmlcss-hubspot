@@ -61,7 +61,7 @@ body {
 }
 
 .grey {
-    background-color: #32494b;
+    background-color: #32495b;
     /* da cancellare */
     height: 500px;
 }
@@ -127,7 +127,7 @@ body {
     margin-top: 27px;
 }
 
-.button{
+.button {
     border-radius: 5px;
     padding: 5px 10px;
     font-weight: 700;
@@ -415,5 +415,121 @@ hr {
 /* Footer */
 footer {
     /* da cancellare */
-    height: 600px;
+    /* height: 500px; */
+}
+
+.footer-row {
+    width: 100%;
+    height: 325px;
+}
+
+.boxfooter {
+    width: 25%;
+    height: 325px;
+    float: left;
+}
+
+.rowfooter {
+    width: 100%;
+    height: 175px;
+    /* border: 1px solid white; */
+}
+
+.boxfooter ul li {
+    list-style-type: none;
+    color: #cbd6e2;
+    text-align: left;
+    line-height: 30px;
+}
+
+.boxfooter p {
+    color: #cbd6e2;
+    font-weight: 700;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.btn-footer {
+    font-size: 15px;
+    background-color: #dadee0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-weight: 400;
+    color: #32495b;
+    margin: 15px 0;
+}
+
+.socialitem {
+    margin-top: 10px;
+}
+
+.item-chr {
+    color: #cbd6e2;
+    width: 23px;
+    float: left;
+    margin-right: 20px;
+}
+
+.item-chr2 {
+    color: #cbd6e2;
+    width: 23px;
+    float: left;
+    margin-right: 14px;
+}
+
+.item-chr3 {
+    color: #cbd6e2;
+    width: 23px;
+    float: left;
+    margin-right: 18px;
+}
+
+.languages {
+    width: 100%;
+    height: 30%;
+    border-bottom: 1px solid #cbd6e2;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.rowfooter ul {
+    margin: 0 auto;
+}
+
+.rowfooter li {
+    color: #cbd6e2;
+    float: left;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.copyright {
+    color: #cbd6e2;
+    width: 50%;
+    float: left;
+}
+
+.privacy {
+    color: #cbd6e2;
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+}
+
+.rowfooter img {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.legal {
+    float: right;
+    margin-right: 15px;
+}
+
+.policy {
+    float: right;
 }
