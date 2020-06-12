@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #33475b;
 }
 
 .fullcontain {
@@ -28,6 +29,7 @@ body {
 .powder {
     background-color: #f4f9fd;
     border-bottom: 1px solid #4e6071;
+
 }
 
 .white {
@@ -52,7 +54,8 @@ body {
 }
 
 .blue {
-    background-color: #00b0b0;
+    /* background-color: #00b0b0; */
+    background: linear-gradient(0.25turn, #00a8b9, #00afb2, #00bba6);
     /* da cancellare */
     height: 600px;
 }
@@ -60,7 +63,7 @@ body {
 .grey {
     background-color: #32494b;
     /* da cancellare */
-    height: 600px;
+    height: 500px;
 }
 
 /* Prima nav  */
@@ -147,19 +150,20 @@ body {
     background-color: #fe775a;
     border: none;
 }
+/* Fine Prima Nav */
 
 /* Seconda Nav */
 .menu {
     float: right;
 }
 
-img {
+.hubspot-logo {
     width: 120px;
     float: left;
     padding-top: 13px;
 }
 
-ul li {
+.white ul li {
     font-size: 17px;
     color: #4e6071;
     float: left;
@@ -171,6 +175,7 @@ span {
     padding-left: 10px;
     padding-top: 26px;
 }
+/* Fine Seconda Nav */
 
 /* Header  */
 .banner {
@@ -210,34 +215,138 @@ h1 {
     font-size: 10px;
     padding-top: 30px;
 }
+/* Fine Header */
 
 /* Main */
 main {
-    /* da cancellare */
-    height: 1200px;
+                  /* da cancellare */
+    /* height: 1230px; */
 }
 
+/* Bigbox 1 */
 .bigbox {
     width: 100%;
-    height: 600px;
+    height: 630px;
 }
 
 .row {
     width: 100%;
     height: 55%;
+    text-align: center;
+}
+
+.row img {
+    width: 200px;
+    float: initial;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #33475b;
+}
+
+.row p {
+    width: 82%;
+    margin: 30px auto auto;
 }
 
 .whiterow {
     width: 100%;
     height: 45%;
-    background-color: pink;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
 
+.left-part {
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.central-right-part {
+    width: 66.6%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.left-part img {
+    width: 130px;
+}
+
+.book-margin {
+    margin-top: 40px;
+}
+
+.learnmore {
+    margin-top: 15px;
+}
+
+.btn-learnmore {
+    color: #fafcfe;
+    background-color: #fe775a;
+    border: none;
+    padding: 20px 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.whiterow h3 {
+    margin-top: 40px;
+}
+
+.whiterow p {
+    width: 75%;
+    margin-top: 30px;
+}
+
+.whiterow h4 {
+    margin-top: 25px;
+}
+
+/* .whiterow hr {
+    width: 50%;
+    color: #33475b;
+} */
+
+.whiterow h4::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 50px;
+    border-bottom: 1px solid #899397;
+    top: 58%;
+    width: 55%;
+}
+
+.whiterow i {
+    color: #fe775a;
+    margin-right: 10px;
+    float: left;
+}
+
+.whiterow li {
+    list-style-type: none;
+    float: left;
+    padding-left: 0;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+/* Fine Bigbox 1 */
+
+/* Bigbox 2 */
 .box {
     width: 30%;
-    background-color: pink;
+    background-color: white;
     float: left;
-    height: 520px;
+    height: 550px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .marginbox {
@@ -250,9 +359,58 @@ main {
     margin-bottom: 40px;
 }
 
-.shadow {
-    box-shadow: 2px 2px 2px 2px #e7edf2;
+.box img {
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
 }
+
+.box h3 {
+    margin-top: 17px;
+}
+
+.box p {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+hr {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box h4 {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.box-padding {
+    /* line-height: 2px; */
+    padding: 0;
+}
+
+.box li {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.box i {
+    color: #fe775a;
+    margin-right: 10px;
+}
+
+.box button {
+    margin-top: 25px;
+}
+
+.shadow {
+    box-shadow: 1px 1px 1px 1px #E3E4FA;
+}
+/* Fine Bigbox 2 */
+/* Fine Main */
 
 /* Footer */
 footer {
