@@ -29,7 +29,6 @@ body {
 .powder {
     background-color: #f4f9fd;
     border-bottom: 1px solid #4e6071;
-
 }
 
 .white {
@@ -72,6 +71,13 @@ body {
     top: 0;
     z-index: 2;
 } */
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    overflow: hidden;
+    z-index: 2;
+}
 
 .nav {
     height: 70px;
@@ -153,6 +159,10 @@ body {
 /* Fine Prima Nav */
 
 /* Seconda Nav */
+.margintop-nav {
+    margin-top: 70px;
+}
+
 .menu {
     float: right;
 }
