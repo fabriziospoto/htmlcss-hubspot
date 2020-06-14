@@ -57,7 +57,7 @@ body {
     /* background-color: #00b0b0; */
     background: linear-gradient(0.25turn, #00a8b9, #00afb2, #00bba6);
     /* da cancellare */
-    height: 600px;
+    height: 550px;
 }
 
 .grey {
@@ -194,6 +194,14 @@ span {
     position: relative;
 
 }
+
+/* .house {
+    width: 107%;
+    position: absolute;
+    bottom: -70px;
+    right: -17%;
+    z-index: 0;
+} */
 
 .jumbotron {
     width: 50%;
@@ -422,6 +430,107 @@ hr {
 }
 /* Fine Bigbox 2 */
 /* Fine Main */
+
+/* Blue Section */
+.learn-quote {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.blue-grid {
+    width: 100%;
+    height: 350px;
+}
+
+.blue h2 {
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 28px;
+    padding-top: 40px;
+}
+
+.blue p {
+    color: white;
+    font-size: 15px;
+    padding-top: 30px
+}
+
+.blue-grid-space {
+    width: 100%;
+    height: 300px;
+}
+
+.empty-space {
+    width: 100%;
+    height: 50px;
+}
+
+.quarter {
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+.border-r {
+    border-right: 1px solid white;
+}
+
+.border-tr {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.border-t {
+    border-top: 1px solid white;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.blue-grid-space h2 {
+    padding-top: 20px;
+}
+
+.globe-pt{
+    padding-top: 10px;
+}
+.blue-grid-space p {
+    padding-top: 13px;
+}
+
+.img-size-one {
+    width: 40px;
+}
+.img-pt-1 {
+    padding-top: 15px;
+}
+.img-pt-6{
+    padding-top: 10px;
+}
+
+#blogs img {
+    padding-top: 15px;
+}
+
+#inbound img {
+    padding-top: 12px;
+}
+
+#connect {
+    padding-top: 22px;
+}
+
+#social {
+    padding-top: 17px;
+}
+
+#growth {
+    padding-top: 24px;
+}
+/* Fine Blue Section */
 
 /* Section Start Growing */
 
