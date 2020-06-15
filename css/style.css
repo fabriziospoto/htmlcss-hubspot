@@ -23,13 +23,11 @@ body {
     width: 75%;
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid black; */
     position: relative;
     }
 
 .powder {
     background-color: #f4f9fd;
-    border-bottom: 1px solid #4e6071;
 }
 
 .white {
@@ -41,43 +39,36 @@ body {
 }
 
 .pink {
+    width: 100%;
+    background: url('../img/bg-jumbotron.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
     background-color: #fff4ef;
-    /* da cancellare */
-    /* height: 600px; */
 }
 
 .greenrow {
-    background-color: #afebe4;
     height: 70px;
-    border-top: 2px solid #33475b;
-    border-bottom: 2px solid #33475b;
 }
 
 .blue {
-    /* background-color: #00b0b0; */
     background: linear-gradient(0.25turn, #00a8b9, #00afb2, #00bba6);
-    /* da cancellare */
-    height: 550px;
 }
 
 .grey {
     background-color: #32495b;
-    /* da cancellare */
     height: 500px;
 }
 
 /* Prima nav  */
-/* .fixed {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-} */
 .fixed {
     position: fixed;
     top: 0;
     width: 100vw;
     overflow: hidden;
     z-index: 2;
+    border-bottom: 1px solid #cbd6e2;
 }
 
 .nav {
@@ -87,7 +78,6 @@ body {
 .language {
     float: left;
     color: #4e6071;
-    /* line-height: 70px; */
 }
 
 .language i {
@@ -190,18 +180,8 @@ span {
 
 /* Header  */
 .banner {
-    height: 550px;
-    position: relative;
-
+    height: 693px;
 }
-
-/* .house {
-    width: 107%;
-    position: absolute;
-    bottom: -70px;
-    right: -17%;
-    z-index: 0;
-} */
 
 .jumbotron {
     width: 50%;
@@ -238,8 +218,7 @@ h1 {
 
 /* Main */
 main {
-                  /* da cancellare */
-    /* height: 1230px; */
+    height: 1260px;
 }
 
 /* Bigbox 1 */
@@ -327,11 +306,6 @@ h2 {
     margin-top: 25px;
 }
 
-/* .whiterow hr {
-    width: 50%;
-    color: #33475b;
-} */
-
 .whiterow h4::after {
     content: '';
     position: absolute;
@@ -358,6 +332,12 @@ h2 {
 /* Fine Bigbox 1 */
 
 /* Bigbox 2 */
+
+.bigbox-due {
+    width: 100%;
+    height: 660px;
+}
+
 .box {
     width: 30%;
     background-color: white;
@@ -406,7 +386,6 @@ hr {
 }
 
 .box-padding {
-    /* line-height: 2px; */
     padding: 0;
 }
 
@@ -497,38 +476,51 @@ hr {
 .globe-pt{
     padding-top: 10px;
 }
+
 .blue-grid-space p {
-    padding-top: 13px;
+    padding-top: 10px;
+}
+
+.blue-grid-space h2 {
+font-size: 40px;
+margin-top: 10px;
+padding-top: 0;
 }
 
 .img-size-one {
     width: 40px;
 }
+
 .img-pt-1 {
     padding-top: 15px;
 }
+
 .img-pt-6{
     padding-top: 10px;
 }
 
 #blogs img {
-    padding-top: 15px;
+    padding-top: 18px;
 }
 
 #inbound img {
-    padding-top: 12px;
+    padding-top: 15px;
+}
+
+#blogs p {
+    padding-top: 7px;
+}
+
+#inbound p {
+    padding-top: 10px;
 }
 
 #connect {
     padding-top: 22px;
 }
 
-#social {
-    padding-top: 17px;
-}
-
 #growth {
-    padding-top: 24px;
+    padding-top: 15px;
 }
 /* Fine Blue Section */
 
@@ -550,8 +542,6 @@ hr {
     width: 45%;
     height: 250px;
     float: left;
-    /* border: 1px solid black; */
-    /* text-align: center; */
 }
 
 .row-number h2 {
@@ -614,7 +604,6 @@ hr {
     width: 45%;
     height: 350px;
     float: left;
-    /* border: 1px solid black; */
 }
 
 .start-growing h2 {
@@ -636,11 +625,6 @@ hr {
 /* Fine Section Start Growing */
 
 /* Footer */
-footer {
-    /* da cancellare */
-    /* height: 500px; */
-}
-
 .footer-row {
     width: 100%;
     height: 325px;
@@ -655,7 +639,6 @@ footer {
 .rowfooter {
     width: 100%;
     height: 175px;
-    /* border: 1px solid white; */
 }
 
 .boxfooter ul li {
@@ -756,3 +739,4 @@ footer {
 .policy {
     float: right;
 }
+/* Fine footer */
