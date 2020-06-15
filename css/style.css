@@ -71,6 +71,48 @@ body {
     border-bottom: 1px solid #cbd6e2;
 }
 
+.dropdown {
+    width: 100px;
+    height: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: white;
+    border: 1px solid #cbd6e2;
+    border-radius: 4px;
+    box-shadow:  5px 10px 10px rgba(192, 192, 192, 0.5);
+    position: fixed;
+    top: 60px;
+    left: 200px;
+    z-index: 3;
+    opacity: 0;
+}
+
+.language:hover .dropdown {
+    opacity: 1;
+}
+
+.dropdown li {
+    line-height: 40px;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.triangle {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-top: 1px solid #cbd6e2;
+    border-left: 1px solid #cbd6e2;
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    transform: rotate(45deg);
+}
+
+.dropdown-li:hover {
+ background-color: #e5f5f8;
+}
+
 .nav {
     height: 70px;
 }
